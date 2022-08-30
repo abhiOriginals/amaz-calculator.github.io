@@ -157,3 +157,11 @@ body{
     5px 5px 10px rgba( 0,0,0,.1),
     -5px -5px 10px rgba(24, 23, 23, 0.5);
 }
+.abhi{
+   position: absolute;
+   top:90%; 
+
+}
+.dark .abhi{
+    color:#fff;
+}
