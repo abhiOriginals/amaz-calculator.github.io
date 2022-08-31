@@ -135,28 +135,41 @@ body{
 .dark .calculator .buttons span#clear:active{
     box-shadow:5px 5px 10px rgba(0,0,0,.1);
 }
-.tBtn{
+.tBtnContainer{
+    display:flex;
     position: fixed;
     top: 20px;
-    right: 20%;
+    right: 15%;
+    width: 50px;
+    border-radius: 15px;
+    border:2px solid #000;
+   
+}
+.tBtn{
+    position: relative;
     width: 20px;
     height: 20px;
+    padding-left: 10px;
     border-radius: 50%;
-    background:#555;
+    background:#000;
     cursor: pointer;
     border:2px solid #edf1f4;
-    box-shadow:
+    /* box-shadow:
     5px 5px 10px rgba( 0,0,0,.1),
-    -5px -5px 10px #fff;
-
+    -5px -5px 10px #fff; */
+    
+}
+.dark .tBtnContainer{
+    border:2px solid #fff;
+    justify-content: end;
 }
 .dark .tBtn{
+    
     background:#edf1f4;
     border:2px solid #333;
     box-shadow:
     5px 5px 10px rgba( 0,0,0,.1),
     -5px -5px 10px rgba(24, 23, 23, 0.5);
-}
 .abhi{
    position: absolute;
    top:90%; 
